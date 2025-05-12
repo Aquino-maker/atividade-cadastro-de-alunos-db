@@ -21,7 +21,7 @@ $result = $conn->query($sql);
         <button type="submit">Cadastrar</button>
     </form>
 
-    <h2>Alunos Cadastradis</h2>
+    <h2>Alunos Cadastrados</h2>
     <ul>
         <?php while ($aluno = $result->fetch_assoc()): ?>
             <li>
