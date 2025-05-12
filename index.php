@@ -12,8 +12,10 @@ $result = $conn->query($sql);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <h1>Cadastrar Aluno</h1>
     <form action="inserir.php" method="POST">
         Nome: <input type="text" name="nome" required><br>
